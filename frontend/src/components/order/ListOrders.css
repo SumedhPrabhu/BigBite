@@ -1,0 +1,31 @@
+.list-orders-container {
+  padding: 20px;
+}
+
+.orders-title {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.status-delivered {
+  color: green;
+  font-weight: 600;
+}
+
+.status-pending {
+  color: red;
+  font-weight: 600;
+}
+
+.rdt_Table {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.rdt_TableHead {
+  background-color: #f1f1f1;
+}
+
+.rdt_TableRow:hover {
+  background-color: #f9f9f9;
+}

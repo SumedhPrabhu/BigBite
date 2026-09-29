@@ -1,0 +1,41 @@
+{
+  "name": "snackr-server",
+  "version": "1.0.0",
+  "description": "Snackr backend server - Food Discovery & Ordering Platform",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seeder": "node utils/seeder.js",
+    "seed:restaurants": "node seeder.js",
+    "seed:restaurants:reset": "node seeder.js --reset",
+    "seed:reels": "node services/reelSeeder.js"
+  },
+  "author": "Snackr Team",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.37.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "html-to-text": "^9.0.5",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.2.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemailer": "^6.9.3",
+    "pug": "^3.0.2",
+    "razorpay": "^2.9.8",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
